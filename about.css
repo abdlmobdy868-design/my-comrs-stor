@@ -1,0 +1,182 @@
+.about-page {
+    min-height: 60vh;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background: linear-gradient(135deg, #0090f0 0%, #0070c9 100%);
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    color: #0090f0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-section h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.profile-title {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    color: white;
+}
+
+.about-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.about-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.about-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.about-section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skills-list li {
+    background: white;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: 500;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.social-link:hover {
+    background: #0090f0;
+    color: white;
+    border-color: #0090f0;
+}
+
+.contact-note {
+    margin-top: 15px;
+}
+
+.about-section a {
+    color: #0090f0;
+    text-decoration: none;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .profile-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .profile-avatar {
+        width: 100px;
+        height: 100px;
+        font-size: 2rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+    }
+
+    .social-link {
+        justify-content: center;
+    }
+}
+
