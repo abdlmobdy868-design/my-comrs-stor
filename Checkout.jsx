@@ -12,25 +12,26 @@ function Checkout() {
     0
   )
 
-  const handlePlaceOrder = async (event) => {
+  const handlePlaceOrder = (event) => {
     event.preventDefault()
     setIsPlacingOrder(true)
 
     try {
-      const response = await fetch("/api/orders", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items: cart, address, total }),
-      })
-
-      if (!response.ok) {
-        throw new Error("Unable to place order")
+      const savedOrders = JSON.parse(localStorage.getItem("orders") || "[]")
+      const order = {
+        id: Date.now(),
+        items: cart,
+        address,
+        total,
+        createdAt: new Date().toISOString(),
       }
+
+      localStorage.setItem("orders", JSON.stringify([...savedOrders, order]))
 
       clearCart()
       navigate("/order-success")
     } catch (error) {
-      alert(error.message || "Unable to place order. Please try again.")
+      alert(error.message || "Unable to save order. Please try again.")
     } finally {
       setIsPlacingOrder(false)
     }
