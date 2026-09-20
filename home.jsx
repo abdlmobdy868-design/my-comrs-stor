@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Heroslider from '../../compnt/heroslider'
-import Slideproducts from '../../compnt/slideproducts/slideproducts'
-import Loading from '../../compnt/Loading/Loading'
+import Heroslider from "./heroslider.jsx"
+import Slideproducts from "./slideproducts.jsx"
+import Loading from "./Loading.jsx"
 
-import './home.css'
+import "./home.css"
 
 const categories = [
   "smartphones",

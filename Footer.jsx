@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa"
 import { FaTwitter } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedinIn } from "react-icons/fa"
-import './footer.css'
+import "./footer.css"
 
 const quickLinks = [
   { title: "Home", link: "/" },

@@ -1,8 +1,8 @@
 import React from 'react'
-import Product from './product'
-import './slideproduct.css'
+import Product from "./product.jsx"
+import "./slideproduct.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Loading from '../Loading/Loading';
+import Loading from "./Loading.jsx";
 
 import 'swiper/css';
 import 'swiper/css/navigation';

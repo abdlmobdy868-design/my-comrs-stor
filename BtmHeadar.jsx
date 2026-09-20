@@ -5,7 +5,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { PiSignInThin } from "react-icons/pi";
 import { FaUserPlus } from "react-icons/fa6";
 import { FaSignOutAlt } from "react-icons/fa";
-import { carcontext } from '../context/cretcontext.jsx';
+import { carcontext } from "./cretcontext.jsx";
 
 const NavLinks =[
   {title:"Home", link:"/"},

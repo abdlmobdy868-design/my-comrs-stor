@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { RiStarSFill } from "react-icons/ri";
 import { IoIosStarHalf } from "react-icons/io";
-import Loading from '../../compnt/Loading/Loading'
-import { carcontext } from '../../compnt/context/cretcontext.jsx'
+import Loading from "./Loading.jsx"
+import { carcontext } from "./cretcontext.jsx"
 import { useContext } from 'react'
 import toast from 'react-hot-toast'
-import './accessories.css'
+import "./accessories.css"
 
 function Accessories() {
   const [products, setProducts] = useState([])

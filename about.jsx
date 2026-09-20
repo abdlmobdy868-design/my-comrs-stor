@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.css'
+import "./about.css"
 import { FaGithub, FaLinkedin, FaEnvelope, FaGlobe } from 'react-icons/fa'
 
 function About() {

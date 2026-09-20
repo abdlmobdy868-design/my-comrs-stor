@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import Slideproducts from '../../compnt/slideproducts/slideproducts'
-import Loading from '../../compnt/Loading/Loading'
-import './category.css'
+import Slideproducts from "./slideproducts.jsx"
+import Loading from "./Loading.jsx"
+import "./category.css"
 
 function Category() {
   const { slug } = useParams()

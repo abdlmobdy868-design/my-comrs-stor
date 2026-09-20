@@ -2,11 +2,11 @@ import React, { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FaCartShopping } from "react-icons/fa6";
 import { CiHeart } from "react-icons/ci";
-import './productdetails.css'
-import Slideproducts from '../../compnt/slideproducts/slideproducts';
-import { carcontext } from '../../compnt/context/cretcontext.jsx';
+import "./productdetails.css"
+import Slideproducts from "./slideproducts.jsx";
+import { carcontext } from "./cretcontext.jsx";
 import toast from 'react-hot-toast';
-import Loading from '../../compnt/Loading/Loading';
+import Loading from "./Loading.jsx";
 
 function ProductDetails() {
     const { id } = useParams();

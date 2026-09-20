@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { carcontext } from '../../compnt/context/cretcontext'
+import { carcontext } from "./cretcontext.jsx"
 import { FaTrashAlt } from "react-icons/fa";
-import './cart.css'
+import "./cart.css"
 
 
 function Cart() {

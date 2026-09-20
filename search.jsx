@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import Slideproducts from '../../compnt/slideproducts/slideproducts'
-import Loading from '../../compnt/Loading/Loading'
-import './search.css'
+import Slideproducts from "./slideproducts.jsx"
+import Loading from "./Loading.jsx"
+import "./search.css"
 
 function Search() {
   const [searchParams] = useSearchParams()

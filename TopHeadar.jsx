@@ -3,8 +3,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import { FaSearch } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
 import { BsCart4 } from "react-icons/bs";
-import { carcontext } from '../context/cretcontext.jsx'
-import './hedar.css'
+import { carcontext } from "./cretcontext.jsx"
+import "./hedar.css"
 
 function TopHeadar() {
   const { cart, wishlist } = useContext(carcontext)

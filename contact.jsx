@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 import toast from 'react-hot-toast'
-import './contact.css'
+import "./contact.css"
 
 function Contact() {
   const [formData, setFormData] = useState({

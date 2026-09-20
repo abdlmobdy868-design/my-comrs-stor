@@ -6,7 +6,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
 import { IoIosShareAlt } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
-import { carcontext } from '../context/cretcontext.jsx'
+import { carcontext } from "./cretcontext.jsx"
 import { FaCheck } from "react-icons/fa";
 import toast from 'react-hot-toast';
 import { GiDuration } from 'react-icons/gi';

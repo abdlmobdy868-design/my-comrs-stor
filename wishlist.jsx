@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { carcontext } from '../../compnt/context/cretcontext.jsx'
-import Slideproducts from '../../compnt/slideproducts/slideproducts'
-import './wishlist.css'
+import { carcontext } from "./cretcontext.jsx"
+import Slideproducts from "./slideproducts.jsx"
+import "./wishlist.css"
 
 function Wishlist() {
   const { wishlist, removeFromWishlist, addtocart } = useContext(carcontext)

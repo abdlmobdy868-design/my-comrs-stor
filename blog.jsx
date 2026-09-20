@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Loading from '../../compnt/Loading/Loading'
-import './blog.css'
+import Loading from "./Loading.jsx"
+import "./blog.css"
 
 function Blog() {
   const [posts, setPosts] = useState([])

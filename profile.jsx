@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { carcontext } from '../../compnt/context/cretcontext.jsx'
+import { carcontext } from "./cretcontext.jsx"
 import { FaUser, FaHeart, FaShoppingCart, FaSignOutAlt } from 'react-icons/fa'
-import './profile.css'
+import "./profile.css"
 
 function Profile() {
   const { user, logout, cart, wishlist } = useContext(carcontext)
