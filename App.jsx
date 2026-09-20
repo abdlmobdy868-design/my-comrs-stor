@@ -6,6 +6,7 @@ import Footer from "./Footer.jsx"
 import Home from "./home.jsx"
 import ProductDetail from "./productdetails.jsx"
 import Cart from "./cart.jsx"
+import Checkout from "./Checkout.jsx"
 import Search from "./search.jsx"
 import Category from "./category.jsx"
 import Wishlist from "./wishlist.jsx"
@@ -48,6 +49,8 @@ function App() {
           <Routes location={location}>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/order-success" element={<h1>Order placed successfully</h1>} />
             <Route path="/products/:id" element={<ProductDetail />} />
             <Route path="/search" element={<Search />} />
             <Route path="/category/:slug" element={<Category />} />

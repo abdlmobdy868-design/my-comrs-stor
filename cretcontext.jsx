@@ -56,6 +56,10 @@ export default function CarProvider({ children }) {
         setcart((prevcart) => prevcart.filter(item => item.id !== productId));
     };
 
+    const clearCart = () => {
+        setcart([]);
+    };
+
     const login = (userData) => {
         setUser(userData)
     }
@@ -85,7 +89,7 @@ export default function CarProvider({ children }) {
 
 
     return (
-        <carcontext.Provider value={{ cart, wishlist, user, addtocart, addtowishlist, removeFromWishlist, isInWishlist, increaseQuantity, decreaseQuantity, removeFromCart, login, logout }}>
+        <carcontext.Provider value={{ cart, wishlist, user, addtocart, addtowishlist, removeFromWishlist, isInWishlist, increaseQuantity, decreaseQuantity, removeFromCart, clearCart, login, logout }}>
             {children}
         </carcontext.Provider>
     )

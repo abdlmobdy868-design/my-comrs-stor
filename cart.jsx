@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { carcontext } from "./cretcontext.jsx"
 import { FaTrashAlt } from "react-icons/fa";
 import "./cart.css"
@@ -6,6 +7,7 @@ import "./cart.css"
 
 function Cart() {
   const { cart, increaseQuantity, decreaseQuantity, removeFromCart } = useContext(carcontext)
+  const navigate = useNavigate()
   const totalprice = cart.reduce((toe, item) => toe + item.price * (item.quantity || 1), 0);
   return (
     <div className='checkout'>
@@ -64,6 +66,7 @@ function Cart() {
               e.target.style.background = 'var(--main_color)';
               e.target.style.transform = 'scale(1)';
             }}
+            onClick={() => navigate('/checkout')}
           >
             Place Order
           </button>
