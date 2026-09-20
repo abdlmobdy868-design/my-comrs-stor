@@ -26,7 +26,23 @@ function Slideproducts({ data, title }) {
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-          }} slidesPerView={5} navigation={true} modules={[Autoplay, Navigation]} className="mySwiper">
+          }}
+          slidesPerView={1}
+          spaceBetween={16}
+          navigation={true}
+          breakpoints={{
+            576: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 4,
+            },
+            1200: {
+              slidesPerView: 5,
+            },
+          }}
+          modules={[Autoplay, Navigation]}
+          className="mySwiper">
 
           {data && data.map((item, index) => (
             <SwiperSlide key={index}>
