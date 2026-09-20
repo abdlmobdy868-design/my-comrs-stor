@@ -13,6 +13,64 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.about-project {
+    text-align: center;
+}
+
+.about-project h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.about-project > p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.project-details {
+    border-top: 1px solid #d6d6d6d5;
+    padding-top: 25px;
+}
+
+.project-details h2 {
+    color: #0a84ff;
+    margin: 20px 0 12px;
+    font-size: 1.35rem;
+}
+
+.project-details p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    text-align: left;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px;
+    border: 1px solid #d6d6d6d5;
+    border-radius: 5px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.feature-item svg {
+    flex-shrink: 0;
+    color: #0a84ff;
+    font-size: 1.2rem;
+}
+
 .profile-section {
     text-align: center;
     margin-bottom: 40px;
@@ -168,6 +226,14 @@
     
     .about-container h1 {
         font-size: 2rem;
+    }
+
+    .about-project h1 {
+        font-size: 2rem;
+    }
+
+    .feature-list {
+        grid-template-columns: 1fr;
     }
 
     .profile-section h1 {
