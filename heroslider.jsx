@@ -25,7 +25,7 @@ function Heroslider() {
               <p>Windows xp/10/7/8, Tv Box</p>
               <Link to="/" className="btn">SHOP NOW</Link>
             </div>
-            <img src="src/img/React Ecommerce Reda Tech/img/banner_Hero1.jpg" alt="" />
+            <img src="/banner_Hero1.jpg" alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
@@ -35,7 +35,7 @@ function Heroslider() {
               <p>Windows xp/10/7/8, Tv Box</p>
               <Link to="/" className="btn">SHOP NOW</Link>
             </div>
-            <img src="src/img/React Ecommerce Reda Tech/img/banner_Hero2.jpg" alt="" />
+            <img src="/banner_Hero2.jpg" alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
@@ -45,7 +45,7 @@ function Heroslider() {
               <p>Windows xp/10/7/8, Tv Box</p>
               <Link to="/" className="btn">SHOP NOW</Link>
             </div>
-            <img src="src/img/React Ecommerce Reda Tech/img/banner_Hero3.jpg" alt="" />
+            <img src="/banner_Hero3.jpg" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
