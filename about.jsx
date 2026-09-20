@@ -10,8 +10,8 @@ function About() {
           <div className="profile-image">
             <div className="profile-avatar">MA</div>
           </div>
-          <h1>Mohamed Abdel Mobdy</h1>
-          <p className="profile-title">Web & Web Application Developer</p>
+          <h1>Eng. Mohamed Abdel Mobdy</h1>
+          <p className="profile-title">Web & Web Application Developer | Backend .NET Software</p>
         </div>
 
         <div className="about-section">
@@ -28,7 +28,9 @@ function About() {
           <ul className="skills-list">
             <li>HTML5 & CSS3</li>
             <li>JavaScript / React</li>
-            
+            <li>C#</li>
+            <li>ASP.NET Core</li>
+            <li>SQL Server</li>
             <li>Web Application Development</li>
             <li>Responsive Design</li>
             <li>Information Systems</li>
