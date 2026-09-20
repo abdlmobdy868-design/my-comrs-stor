@@ -81,7 +81,7 @@ function Footer() {
         </div>
 
         <div className="footer_bottom">
-          <p>&copy; 2024 Azon. All rights reserved.</p>
+          <p>&copy; 2026 Designed &amp; Developed by Eng. Mahomed Abdlmobdy</p>
         </div>
       </div>
     </footer>

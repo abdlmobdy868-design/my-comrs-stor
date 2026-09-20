@@ -23,6 +23,15 @@ function About() {
           </p>
         </div>
 
+        <div className="about-section project-section">
+          <h2>About The Project</h2>
+          <p>
+            <strong>ShopEase</strong> is a simple and modern e-commerce project built with
+            <strong> HTML, CSS, and JavaScript</strong>. It provides a smooth shopping
+            experience with product browsing, cart management, and a clean responsive interface.
+          </p>
+        </div>
+
         <div className="about-section">
           <h2>Skills</h2>
           <ul className="skills-list">
